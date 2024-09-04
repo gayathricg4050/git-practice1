@@ -6,6 +6,7 @@ N="\e[0m"
 
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
+    
     then
       echo "please run the script with root privileges"
       exit 1
